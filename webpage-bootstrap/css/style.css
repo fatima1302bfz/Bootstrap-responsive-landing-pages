@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ ::selection {
+    background-color: #ffc700;
+    ;
+}
+
+html::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 20px;
+}
+
+html::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px #ffc700;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #ffc700;
+    border-radius: 20px;
+}
+
+.scroll-on {
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.1);
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+
+/* start header */
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-brand {
+    color: #000;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-brand:focus,
+.navbar .navbar-brand:hover {
+    color: #000;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #000;
+    padding: 8px;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.navbar .navbar-nav .nav-link.active {
+    background-color: #ffc700;
+    color: white;
+    transform: translateX(-3px) scale(1.01);
+    -webkit-transform: translateX(-3px) scale(1.01);
+    -moz-transform: translateX(-3px) scale(1.01);
+    -ms-transform: translateX(-3px) scale(1.01);
+    -o-transform: translateX(-3px) scale(1.01);
+}
+
+.navbar .navbar-nav .nav-link:not(.nav-link.active):hover,
+.navbar .navbar-nav .nav-link:not(.nav-link.active):focus {
+    color: #ffc700;
+}
+
+.navbar .navbar-toggler {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+
+.navbar .navbar-toggler i {
+    font-size: 30px;
+}
+
+.navbar .navbar-toggler .active,
+.navbar .navbar-toggler i:hover,
+.navbar .navbar-toggler i:focus {
+    color: #ffc700;
+}
+
+
+/* end header */
+
+
+/* start home */
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 172px;
+    z-index: 2;
+}
+
+.carousel-caption .btn {
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.carousel-caption .btn:hover {
+    background-color: #ffe792;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    line-height: 1.9;
+    margin: auto;
+    width: 60%;
+}
+
+.carousel-inner::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.58);
+    z-index: 1;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+#home .carousel-indicators button.active,
+#home .carousel-control-prev-icon:hover,
+#home .carousel-control-next-icon:hover {
+    background-color: #ffc700;
+}
+
+#home .carousel-indicators button {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+
+/* end home */
+
+
+/* start about */
+
+.about .about-text h2 {
+    text-transform: capitalize;
+}
+
+.about .btn {
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.about .btn:hover {
+    background-color: #ffe792;
+}
+
+
+/* end about */
+
+
+/* start services */
+
+.services {
+    background-color: #e5ff0017;
+}
+
+.services .card-body {
+    font-size: 40px;
+}
+
+.services .card h3 {
+    font-size: 25px;
+}
+
+.services .card p {
+    font-size: 15px;
+}
+
+.services .card {
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.services .card:hover {
+    border-top: 15px solid #ffc700;
+}
+
+.services .card:hover i {
+    color: #ffc700;
+}
+
+.services .btn {
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.services .btn:hover {
+    background-color: #ffe792;
+}
+
+
+/* end services */
+
+
+/* start portfolio */
+
+.portfolio .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+.portfolio .card:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
+
+.portfolio .card .img-area img {
+    transition: all .9s ease;
+    -webkit-transition: all .9s ease;
+    -moz-transition: all .9s ease;
+    -o-transition: all .9s ease;
+    -ms-transition: all .9s ease;
+}
+
+.portfolio .card:hover .img-area img {
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+    opacity: .3;
+}
+
+.portfolio .card h3 {
+    font-size: 25px;
+}
+
+.portfolio .card p {
+    font-size: 15px;
+}
+
+.portfolio .card .btn {
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.portfolio .card .btn:hover {
+    background-color: #ffe792;
+}
+
+
+/* end portfolio */
+
+
+/* start team */
+
+.team {
+    background-color: #e5ff0017;
+}
+
+.team .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.team .card:hover {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.35);
+}
+
+.team .card i {
+    font-size: 18px;
+    color: #ffc700;
+}
+
+.team .card h3 {
+    font-size: 20px;
+}
+
+.team .card p.card-text {
+    font-size: 14px;
+}
+
+
+/* end team */
+
+
+/* start contact */
+
+.contact .form-control {
+    outline: none !important;
+    border: 1px solid #ffc700;
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    box-shadow: none;
+}
+
+.contact .form-control:focus {
+    box-shadow: 0 0 1px 2px #ffc700;
+}
+
+.contact .btn {
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+}
+
+.contact .btn:hover {
+    background-color: #ffe792;
+}
+
+
+/* end contact */
+
+
+/*  === responsive css === */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-caption {
+        bottom: 282px;
+    }
+    .carousel-caption p {
+        width: 100%;
+    }
+    .card {
+        margin-bottom: 30px;
+    }
+    .img-area img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel-caption {
+        bottom: 300px;
+    }
+    .carousel-caption h5 {
+        font-size: 17px;
+    }
+    .carousel-caption p {
+        font-size: 12px;
+        line-height: 1.6;
+        width: 100%;
+    }
+    .carousel-caption a {
+        padding: 10px 15px;
+    }
+    .about-text {
+        padding-top: 50px;
+    }
+    .card {
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .navbar .navbar-nav .nav-link {
+        color: #000;
+        border-top: 1px solid #ffc8002f;
+        border-bottom: 1px solid #ffc8002f;
+        transition: all .3s ease-in-out;
+        -webkit-transition: all .3s ease-in-out;
+        -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+        -o-transition: all .3s ease-in-out;
+    }
+    .navbar .navbar-nav .nav-link a:hover {
+        transform: translateX(5px);
+        -webkit-transform: translateX(5px);
+        -moz-transform: translateX(5px);
+        -ms-transform: translateX(5px);
+        -o-transform: translateX(5px);
+    }
+}

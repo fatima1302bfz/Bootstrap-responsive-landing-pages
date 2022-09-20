@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-learning | BOOTSTRAP</title>
+    <!-- ====== integrate bootstrap ====== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- ====== font awesome icons ====== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+    <!-- ====== css files ====== -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- ======S Start Registration ====== -->
+    <div class="registration">
+        <div class="container">
+            <div class="regis-content p-5 mx-auto">
+                <span class="close">X</span>
+                <div class="col-sm-7 col-md-7 text-center mx-auto mb-5">
+                    <h3 class="text-dark-20">Sign Up For Free</h3>
+                </div>
+                <div class="col-sm-12 col-md-12">
+
+                    <form class="form-inline">
+                        <div class="form-group mt-3">
+                            <label for="fname" class="mb-2">First Name</label>
+                            <input type="text" class="form-control" id="fname" placeholder="Enter First Name" required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="lname" class="mb-2">Last Name</label>
+                            <input type="text" class="form-control mb-3" id="lname" placeholder="Enter Last Name" required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="email" class="mb-2">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="fatima@example.com" required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="passwd" class="mb-2">Password</label>
+                            <input type="password" class="form-control" id="psswd" placeholder="******" required>
+                        </div>
+                        <button type="submit" class="red-btn comm-btn red-bg mt-4 px-5 mx-auto">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ====== End Registration ====== -->
+    <!-- ====== Start Header ====== -->
+    <header>
+        <nav class="navbar navbar-expand-lg py-3 fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="E-learning" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-filter-right"></i>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#student">Students</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cources">Cources</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reviews">Reviews</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="red-btn red-bg comm-btn registre">Register</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ====== End Header ====== -->
+    <!-- ====== Start home ====== -->
+    <section id="home" class="home section-padding">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 text">
+                    <h1 class="mb-5">Galaxy Prog Elearning</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, laborum sapiente? Voluptas magni quasi doloribus atque neque cupiditate, error dicta maiores delectus consequatur amet hic minus molestias vel dolorem? Consectetur!
+                    </p>
+                    <div class="mt-4 home-btn">
+                        <button class="red-btn mr-5 red-bg comm-btn">
+                Order now
+                <i class="bi bi-basket2-fill"></i>
+              </button>
+                        <button class="white-btn mt-3 mt-lg-0 mt-md-0 ms-lg-4 ms-md-4 comm-btn">
+                Continue for free
+                <i class="bi bi-chevron-right"></i>
+              </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== End home ====== -->
+    <!-- ====== Start Counter ====== -->
+    <section id="student" class="counter-section py-4 red-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3 my-3">
+                    <div class="box text-white text-center">
+                        <div class="counter-body">
+                            <div class="counter">
+                                <span class="count" data-speed="1000">1758</span>+
+                            </div>
+                            <p class="info">cources</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 my-3">
+                    <div class="box text-white text-center">
+                        <div class="counter-body">
+                            <div class="counter">
+                                <span class="count" data-speed="1000">2245</span>+
+                            </div>
+                            <p class="info">students</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 my-3">
+                    <div class="box text-white text-center">
+                        <div class="counter-body">
+                            <div class="counter">
+                                <span class="count" data-speed="1000">575</span>+
+                            </div>
+                            <p class="info">teachers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 my-3">
+                    <div class="box text-white text-center">
+                        <div class="counter-body">
+                            <div class="counter">
+                                <span class="count" data-speed="1000">170</span>+
+                            </div>
+                            <p class="info">sponsors</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== End Counter ====== -->
+    <!-- ====== Start about-first====== -->
+    <section id="about" class="about section-padding reveal fade-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-7 my-3">
+                    <div class="box image">
+                        <img src="images/photo2.jpg" alt="about image" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-5 my-4 ps-4">
+                    <div class="box text">
+                        <h2>
+                            Remote <br> learning solutions
+                        </h2>
+                        <p class="my-3">
+                            Remote learning has been on the rise but now the benefits are boundless. So how can K-12 schools unlock the full potential of their virtual classrooms? The key is to ensure every young mind has the freedom and opportunity to learn and grow, and teachers
+                            can create 1:1 experiences that stimulate students while keeping their data and privacy secure. Learn more and achieve more with GALAXY PROGS.
+                        </p>
+                        <button class="red-btn comm-btn red-bg px-4">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== End about-first ====== -->
+    <!-- ====== Start about-second ====== -->
+    <section class="about pt-8 pb-5 reveal fade-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-5 my-3">
+                    <div class="box text">
+                        <h2>
+                            Transforming <br> your virtual classroom.
+                        </h2>
+                        <p class="my-3">
+                            Create learning experiences that encourage K-12 students to grow with remote learning technology.
+                        </p>
+                        <ul class="ps-0">
+                            <li class="mb-1">
+                                <i class="bi bi-check-lg"></i>
+                                <span class="ms-2">Opportunity to learn</span>
+                            </li>
+                            <li class="mb-1">
+                                <i class="bi bi-check-lg"></i>
+                                <span class="ms-2">Innovating eLearning </span>
+                            </li>
+                            <li>
+                                <i class="bi bi-check-lg"></i>
+                                <span class="ms-2">Assuring security</span>
+                            </li>
+                        </ul>
+                        <button class="red-btn comm-btn red-bg px-4">Read More</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-7 my-4 ps-4">
+                    <div class="box image">
+                        <img src="images/photo3.jpg" alt="about image" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== End about-second ====== -->
+    <!-- ====== Start description ====== -->
+    <section class="description section-padding reveal fade-bottom">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-7 col-12 mx-auto">
+                    <h2 class="mb-3">
+                        Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Soluta, Explicabo!
+                    </h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam excepturi porro perspiciatis, quaerat veniam earum hic deleniti aliquam explicabo tempore? Esse assumenda dolore rem, nulla consequuntur magnam nobis eius asperiores?
+                    </p>
+                    <button class="red-btn comm-btn red-bg mt-5 mx-auto px-4">
+              Read More
+            </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== End description ====== -->
+    <!-- ====== Start courses ====== -->
+    <section id="cources" class="cources section-padding reveal fade-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-lg-8 col-12 mx-auto">
+                    <div class="section-header text-center pb-5">
+                        <h2 class="mb-4">Lorem Ipsum Dolor Sit Amet.</h2>
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto perferendis laboriosam necessitatibus, eaque quidem dolor enim! Unde, natus explicabo libero repudiandae deserunt, autem reprehenderit vero odio distinctio possimus, corporis consequatur?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="bg-white pb-2">
+                        <div class="card-body">
+                            <div class="img-area mb-4">
+                                <img src="images/photo1.jpg" alt="course1-card" class="img-fluid" />
+                            </div>
+                            <h3 class="card-title">Lorem Ipsum Dolor Sit Amet.</h3>
+                            <p class="lead">Lorem ipsum dolor sit.</p>
+                            <div class="price">
+                                <span class="text-red">10.00$</span>
+                                <span class="ms-3">11.56$</span>
+                            </div>
+                            <button class="red-btn comm-btn red-bg mt-3">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="box col-12 col-md-6 col-lg-4 mb-4">
+                    <div class="bg-white pb-2">
+                        <div class="card-body">
+                            <div class="img-area mb-4">
+                                <img src="images/photo1.jpg" alt="course1-card" class="img-fluid" />
+                            </div>
+                            <h3 class="card-title">Lorem Ipsum Dolor Sit Amet.</h3>
+                            <p class="lead">Lorem ipsum dolor sit.</p>
+                            <div class="price">
+                                <span class="text-red">10.00$</span>
+                                <span class="ms-3">11.56$</span>
+                            </div>
+                            <button class="red-btn comm-btn red-bg mt-3">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="box col-12 col-md-6 col-lg-4">
+                    <div class="bg-white pb-2">
+                        <div class="card-body">
+                            <div class="img-area mb-4">
+                                <img src="images/photo1.jpg" alt="course1-card" class="img-fluid" />
+                            </div>
+                            <h3 class="card-title">Lorem Ipsum Dolor Sit Amet.</h3>
+                            <p class="lead">Lorem ipsum dolor sit.</p>
+                            <div class="price">
+                                <span class="text-red">10.00$</span>
+                                <span class="ms-3">11.56$</span>
+                            </div>
+                            <button class="red-btn comm-btn red-bg mt-3">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== End cources ====== -->
+    <!-- ====== start testimonials ====== -->
+    <section id="reviews" class="reviews section-padding red-bg reveal fade-bottom">
+        <div class="container">
+            <div class="text-center pb-4">
+                <h2>Testimonial</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-lg-10 offset-lg-1 mt-5">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="carousel-caption">
+                                    <img src="images/photo1.jpg" alt="First slide" class="mb-lg-5" />
+                                    <p class="text-dark py-3">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, omnis.
+                                    </p>
+                                    <h5 class="text-red">Walid Wawa</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-caption">
+                                    <img src="images/photo1.jpg" alt="First slide" />
+                                    <p class="text-dark">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, omnis.
+                                    </p>
+                                    <h5 class="text-red">Walid Wawa</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="carousel-caption">
+                                    <img src="images/photo1.jpg" alt="First slide" />
+                                    <p class="text-dark">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, omnis.
+                                    </p>
+                                    <h5 class="text-red">Walid Wawa</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== End testimonials ======  -->
+    <!-- ====== start FAQ ====== -->
+    <section id="faq" class="faq section-padding reveal fade-bottom">
+        <div class="container">
+            <div class="section-header pb-5">
+                <h2>FAQ</h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <span class="text-red">~</span> ipsum dolor sit, amet
+                    consectetur adipisicing elit. Explicabo, dicta.
+                  </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, asperiores voluptate rerum esse incidunt iure nulla repudiandae, repellat distinctio labore nisi fuga eius omnis ducimus! Amet unde in illo nostrum? Animi voluptatum at a neque, expedita
+                                    vitae laudantium eaque inventore? Quis quos recusandae consectetur veritatis provident ipsum! Earum ducimus non ipsa quas nobis perspiciatis. Nisi, esse. Beatae molestias dignissimos repellendus!.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <span class="text-red">~</span> ipsum dolor sit, amet
+                    consectetur adipisicing elit. Explicabo, dicta.
+                  </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, asperiores voluptate rerum esse incidunt iure nulla repudiandae, repellat distinctio labore nisi fuga eius omnis ducimus! Amet unde in illo nostrum? Animi voluptatum at a neque, expedita
+                                    vitae laudantium eaque inventore? Quis quos recusandae consectetur veritatis provident ipsum! Earum ducimus non ipsa quas nobis perspiciatis. Nisi, esse. Beatae molestias dignissimos repellendus!.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <span class="text-red">~</span> ipsum dolor sit, amet
+                    consectetur adipisicing elit. Explicabo, dicta.
+                  </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, asperiores voluptate rerum esse incidunt iure nulla repudiandae, repellat distinctio labore nisi fuga eius omnis ducimus! Amet unde in illo nostrum? Animi voluptatum at a neque, expedita
+                                    vitae laudantium eaque inventore? Quis quos recusandae consectetur veritatis provident ipsum! Earum ducimus non ipsa quas nobis perspiciatis. Nisi, esse. Beatae molestias dignissimos repellendus!.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 mb-3">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    <span class="text-red">~</span> ipsum dolor sit, amet
+                    consectetur adipisicing elit. Explicabo, dicta.
+                  </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, asperiores voluptate rerum esse incidunt iure nulla repudiandae, repellat distinctio labore nisi fuga eius omnis ducimus! Amet unde in illo nostrum? Animi voluptatum at a neque, expedita
+                                    vitae laudantium eaque inventore? Quis quos recusandae consectetur veritatis provident ipsum! Earum ducimus non ipsa quas nobis perspiciatis. Nisi, esse. Beatae molestias dignissimos repellendus!.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== End FAQ ======  -->
+    <!-- ====== start more information ====== -->
+    <section id="more-info" class="more-info section-padding">
+        <div class="container">
+            <div class="row text-center">
+
+                <div class="col-sm-12 col-md-8 col-lg-8">
+                    <h2>Resources on education and remote learning. Options for continuing education outside the classroom.
+                    </h2>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 pt-md-4 pt-lg-4">
+                    <button class="red-btn comm-btn red-bg mx-auto mt-sm-4"> Learn More </button>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- ====== End more information ======  -->
+    <!-- ====== start newsletter====== -->
+    <section class="newsletter section-padding reveal fade-bottom">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-10 col-12 mx-auto section-header">
+                    <h2 class="mb-3">
+                        Teachable Moments: 17 Innovative Lesson Ideas for the Connected Classroom
+                    </h2>
+                    <p>
+                        Sign up to learn more about 17 flexible lesson templates that are tailored for digital learning in remote or classroom environments.
+                    </p>
+                </div>
+
+            </div>
+            <div class="row text-center pt-5">
+                <div class="col-lg-8 col-12 mx-auto">
+                    <form class="form-inline">
+                        <div class="form-group mx-auto">
+                            <input type="email" class="form-control" id="email" placeholder="Email Here" required>
+                            <button type="submit" class="red-btn comm-btn red-bg ms-lg-3 ms-md-3">SUBSCRIBE</button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== End newsletter ======  -->
+    <!-- ====== start footer ====== -->
+    <footer class="red-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="" class="footer-link px-2">Register</a>
+                    <a href="" class="footer-link px-2">Forum</a>
+                    <a href="" class="footer-link px-2">Affiliate</a>
+                    <a href="" class="footer-link px-2">FAQ</a>
+                    <div class="footer-social pt-4 text-center">
+                        <a href=""><i class="bi bi-facebook px-1"></i></a>
+                        <a href=""><i class="bi bi-twitter px-1"></i></a>
+                        <a href=""><i class="bi bi-youtube px-1"></i></a>
+                        <a href=""><i class="bi bi-dribbble px-1"></i></a>
+                        <a href=""><i class="bi bi-linkedin px-1"></i></a>
+                        <a href=""><i class="bi bi-instagram px-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="copyright">
+                        <div class="copy-right text-center pt-5">
+                            <p class="text-light"> All Rights Reserved @<span id="year"></span> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ====== End footer ======  -->
+
+
+    <!-- ====== start js files integration ====== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.js "></script>
+    <script src="js/main.js "></script>
+</body>
+
+</html>
